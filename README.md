@@ -2,7 +2,7 @@
 A daily 3D word-puzzle game for Reddit, built on the [Devvit](https://developers.reddit.com/) developer platform. Rain letters onto a low-poly island, catch the ones you need, and unscramble the hidden word before the rising flood swallows your beach.
 
 Each day a new puzzle is posted to the community. Players race the clock, climb time- and score-based leaderboards, and share their results back to the comments.
-![island-rain](https://res.cloudinary.com/dzzrxqiho/image/upload/v1783416698/Group_9_4_ef1awn.png)
+![island-rain](https://res.cloudinary.com/dzzrxqiho/image/upload/v1783417898/Group_9_5_tdvmgy.png)
 ## Daily Hook:
 If you fail to complete puzzle you can suggest upcoming day's puzzle.
 
