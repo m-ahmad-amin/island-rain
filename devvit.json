@@ -20,8 +20,8 @@
   "menu": {
     "items": [
       {
-        "label": "Create a new post",
-        "description": "island-rain",
+        "label": "Create Word Rain post",
+        "description": "Post today's island escape puzzle",
         "location": "subreddit",
         "forUserType": "moderator",
         "endpoint": "/internal/menu/post-create"
@@ -40,6 +40,20 @@
   },
   "triggers": {
     "onAppInstall": "/internal/triggers/on-app-install"
+  },
+  "scheduler": {
+    "tasks": {
+      "daily-post": {
+        "endpoint": "/internal/scheduler/daily-post",
+        "cron": "0 8 * * *"
+      }
+    }
+  },
+  "permissions": {
+    "redis": true,
+    "reddit": {
+      "asUser": ["SUBMIT_COMMENT"]
+    }
   },
   "scripts": {
     "dev": "vite build --watch",
