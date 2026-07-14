@@ -2,3 +2,5 @@ node_modules
 .DS_Store
 dist
 .env
+dev-out.txt
+tsc-out.txt
